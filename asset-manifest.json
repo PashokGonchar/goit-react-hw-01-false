@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PashokGonchar/goit-react-hw-01-components/static/css/main.9e20784e.css",
+    "main.css": "/PashokGonchar/goit-react-hw-01-components/static/css/main.c137a1bb.css",
     "main.js": "/PashokGonchar/goit-react-hw-01-components/static/js/main.8546ef61.js",
     "index.html": "/PashokGonchar/goit-react-hw-01-components/index.html",
-    "main.9e20784e.css.map": "/PashokGonchar/goit-react-hw-01-components/static/css/main.9e20784e.css.map",
+    "main.c137a1bb.css.map": "/PashokGonchar/goit-react-hw-01-components/static/css/main.c137a1bb.css.map",
     "main.8546ef61.js.map": "/PashokGonchar/goit-react-hw-01-components/static/js/main.8546ef61.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e20784e.css",
+    "static/css/main.c137a1bb.css",
     "static/js/main.8546ef61.js"
   ]
 }
