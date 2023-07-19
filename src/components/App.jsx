@@ -1,9 +1,11 @@
-import ParentComponent from '../components/ParentComponent';
+import ProfileComponent from './ProfileComponent';
+import StatisticsComponent from './StatisticsComponents';
 
 const App = () => {
   return (
     <>
-      <ParentComponent />
+      <ProfileComponent />
+      <StatisticsComponent />
     </>
   );
 };

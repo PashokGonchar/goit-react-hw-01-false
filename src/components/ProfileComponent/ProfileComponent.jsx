@@ -1,7 +1,7 @@
 import CreateUsersProfile from '../Profile';
 import user from '../../assets/user.json';
 
-const ParentComponent = () => {
+const ProfileComponent = () => {
   return (
     <div>
       <CreateUsersProfile
@@ -15,4 +15,4 @@ const ParentComponent = () => {
   );
 };
 
-export default ParentComponent;
+export default ProfileComponent;
