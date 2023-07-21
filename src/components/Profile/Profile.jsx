@@ -1,30 +1,41 @@
-import './Profile.css';
+import {
+  ProfileCustom,
+  DescriptionCustom,
+  AvatarCustom,
+  NameCustom,
+  TagCustom,
+  LocationCustom,
+  StatsCustom,
+  StatsChildCustom,
+  LabelCustom,
+  QuantityCustom
+} from './Profile.styled';
 
 const CreateUsersProfile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className="profile">
-      <div className="description">
-        <img src={avatar} alt="User avatar" className="avatar" />
-        <p className="name">{username}</p>
-        <p className="tag">{tag}</p>
-        <p className="location">{location}</p>
-      </div>
+    <ProfileCustom>
+      <DescriptionCustom>
+        <AvatarCustom src={avatar} alt="User avatar" />
+        <NameCustom>{username}</NameCustom>
+        <TagCustom>{tag}</TagCustom>
+        <LocationCustom>{location}</LocationCustom>
+      </DescriptionCustom>
 
-      <ul className="stats">
-        <li className="li_stats">
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
-        </li>
-        <li className="li_stats">
-          <span className="label">Views</span>
-          <span className="quantity">{stats.views}</span>
-        </li>
-        <li className="li_stats">
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
-        </li>
-      </ul>
-    </div>
+      <StatsCustom>
+        <StatsChildCustom>
+          <LabelCustom>Followers</LabelCustom>
+          <QuantityCustom>{stats.followers}</QuantityCustom>
+        </StatsChildCustom>
+        <StatsChildCustom>
+          <LabelCustom>Views</LabelCustom>
+          <QuantityCustom>{stats.views}</QuantityCustom>
+        </StatsChildCustom>
+        <StatsChildCustom>
+          <LabelCustom>Likes</LabelCustom>
+          <QuantityCustom>{stats.likes}</QuantityCustom>
+        </StatsChildCustom>
+      </StatsCustom>
+    </ProfileCustom>
   );
 };
 

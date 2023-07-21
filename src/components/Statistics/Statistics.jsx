@@ -1,19 +1,26 @@
-import './Statistics.css';
+import {
+  SectionCustom,
+  TitleCustom,
+  UlCustom,
+  LiCustom,
+  SpanLabelCustom,
+  SpanPercentageCustom,
+} from './Statistics.styled';
 
 const CreateStatistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+    <SectionCustom>
+      {title ? <TitleCustom>{title}</TitleCustom> : null}
 
-      <ul className="stat-list">
+      <UlCustom>
         {stats.map(({ id, label, percentage }) => (
-          <li key={id} className="item">
-            <span className="label">{label}</span>
-            <span className="percentage">{percentage}%</span>
-          </li>
+          <LiCustom key={id}>
+            <SpanLabelCustom>{label}</SpanLabelCustom>
+            <SpanPercentageCustom>{percentage}%</SpanPercentageCustom>
+          </LiCustom>
         ))}
-      </ul>
-    </section>
+      </UlCustom>
+    </SectionCustom>
   );
 };
 
