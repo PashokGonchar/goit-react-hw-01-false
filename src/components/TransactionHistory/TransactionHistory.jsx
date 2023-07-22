@@ -1,5 +1,5 @@
 import transactions from '../../assets/transactions.json';
-import TransactionHistoryComponent from '../TransactionHistoryComponent';
+import TransactionHistoryComponent from '../TransactionHistory';
 
 const TransactionHistory = () => {
   return (

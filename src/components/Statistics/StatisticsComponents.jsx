@@ -1,4 +1,4 @@
-import CreateStatistics from '../Statistics';
+import CreateStatistics from './Statistics';
 import data from '../../assets/data.json';
 
 const StatisticsComponent = () => {

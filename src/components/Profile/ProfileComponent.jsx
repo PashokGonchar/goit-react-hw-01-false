@@ -1,4 +1,4 @@
-import CreateUsersProfile from '../Profile';
+import CreateUsersProfile from './Profile';
 import user from '../../assets/user.json';
 
 const ProfileComponent = () => {
