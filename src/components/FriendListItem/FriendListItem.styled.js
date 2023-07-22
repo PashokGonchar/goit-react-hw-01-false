@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const UlFriendList = styled.ul`
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 250px;
   margin: 60px auto;
   grid-gap: 10px;
   padding-left: 0;
