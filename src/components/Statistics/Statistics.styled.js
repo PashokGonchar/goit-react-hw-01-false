@@ -10,8 +10,9 @@ export const TitleCustom = styled.h2`
   text-align: center;
   border-bottom: 1px solid #ccc;
 
+  margin-top: 0;
   margin-bottom: 0px;
-  padding-bottom: 10px;
+  padding: 20px 0px 20px 0px;
 
   background-color: #67dee9;
 `;
