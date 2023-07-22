@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const ProfileCustom = styled.div`
   width: 400px;
   border: 1px solid #ccc;
-  margin: 20px auto;
+  margin: 60px auto;
 `;
 
 export const DescriptionCustom = styled.div`
